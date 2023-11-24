@@ -99,6 +99,9 @@ $(foreach DEVICE_SKU, $(DEVICE_SKUS), \
 # Power
 $(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libperfmgr-ext-fogos)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Properties
 PRODUCT_PACKAGES += \
     hardware.sku.XT2363-8.prop \
