@@ -101,3 +101,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
+
+# Derpfest section
+# Overlay Derp Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+# branch v4a https://github.com/AxionAOSP/android_packages_apps_ViPER4AndroidFX.git
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+# https://github.com/fawzydede/vendor_motorola_motocamera.git
+$(call inherit-product, vendor/motorola/motocamera/motocamera.mk)
