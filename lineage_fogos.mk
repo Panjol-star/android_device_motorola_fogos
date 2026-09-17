@@ -26,3 +26,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-9 43d61-30ef7 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-9/43d61-30ef7:user/release-keys \
     DeviceProduct=fogos_g
+
+DERPFEST_BUILD_TYPE := UNOFFICIAL
+TARGET_BOOT_ANIMATION_RES := 720
+WITH_GMS := true
+# Test
+TARGET_USE_FILES := false
+TARGET_USE_MAPS := false
+WITH_PIXEL_LAUNCHER := false
+TARGET_USE_GPHOTOS := false
+TARGET_DISABLE_MATLOG := true
+# ---
