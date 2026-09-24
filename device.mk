@@ -109,12 +109,3 @@ $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
 # lunaris time
 # https://github.com/fawzydede/vendor_motorola_motocamera.git
 $(call inherit-product, vendor/motorola/motocamera/motocamera.mk)
-
-# Lineage Health
-$(call soong_config_set,lineage_health,charging_control_charging_path,sys/class/power_supply/battery/input_current_limit)
-$(call soong_config_set,lineage_health,charging_control_charging_enabled,0)
-$(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
-$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
-$(call soong_config_set,lineage_health,fast_charge_node,/sys/class/qcom-battery/restrict_chg)
-$(call soong_config_set,lineage_health,fast_charge_value_none,1)
-$(call soong_config_set,lineage_health,fast_charge_value_fast_charge,0)
