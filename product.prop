@@ -11,4 +11,3 @@ ro.mot.build.customerid=global
 # SKU specific properties
 import /product/etc/hardware.sku.${ro.boot.hardware.sku}.prop
 
-ro.lunaris.maintainer=hihihahuhu
