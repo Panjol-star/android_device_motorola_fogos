@@ -4,9 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_fogos.mk
-
-COMMON_LUNCH_CHOICES := \
-    infinity_avicii-eng \
-    infinity_avicii-user \
-    infinity_avicii-userdebug
+    $(LOCAL_DIR)/lineage_fogos.mk
