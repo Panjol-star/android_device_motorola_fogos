@@ -2,8 +2,8 @@
 // SPDX-FileCopyrightText: The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
-soong_namespace {
-    imports: [
-        "hardware/lineage/interfaces/power-libperfmgr",
-    ],
+
+runtime_resource_overlay {
+    name: "SettingsResDevice",
+    vendor: true,
 }
