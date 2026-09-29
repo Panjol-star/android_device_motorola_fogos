@@ -28,9 +28,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=fogos_g
 
 TARGET_BOOT_ANIMATION_RES := 720
-# Maintainer Name
 INFINITY_MAINTAINER := hihihahuhu
-# Whether Including Google Apps
 WITH_GAPPS := true
 INFINITY_BUILD_TYPE := UNOFFICIAL
 
