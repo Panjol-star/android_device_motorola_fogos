@@ -25,4 +25,8 @@
 
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
+
+    <!-- The CPU temperature sensor path -->
+    <!-- zone 34 is cpuss-0-usr -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone34/temp</string>
 </resources>
