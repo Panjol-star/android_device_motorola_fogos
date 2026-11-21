@@ -116,6 +116,5 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
 
-# lunaris time
-# https://github.com/fawzydede/vendor_motorola_motocamera.git
-$(call inherit-product, vendor/motorola/motocamera/motocamera.mk)
+# Call the motocamera setup
+$(call inherit-product-if-exists, vendor/motorola/motocamera/MotoCamera.mk)
